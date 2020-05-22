@@ -52,6 +52,38 @@ background: #3f3f44;
   border-radius: 5px;
 }
 
+.catalogo {
+display: flex;
+padding: 0%;
+background-color:#CDC5BF;
+padding-left: 15%;
+padding-right: 15%;
+
+
+}
+
+.menu-catalogo{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.capa {
+  margin: 15px ;
+}
+
+
+
+
+
+
+
+
+
+
+/*codigo abaixo do rodapé */
 
 footer{
   display: flex;
