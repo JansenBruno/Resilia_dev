@@ -72,6 +72,7 @@ padding-right: 15%;
 
 .capa {
   margin: 15px ;
+  border-radius: 10px;
 }
 
 
@@ -120,3 +121,74 @@ font-size: 15px;
 margin-top: 10px;
 font-family:Verdana;
 }
+
+/*mobile*/
+
+@media(max-width:768px) {
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 150px;
+  height: auto;
+
+ 
+}
+
+.flix {
+  font-size: 45px;
+  margin-left: 15px;
+}
+.btnmenu-ul { 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  
+}
+.btnmenu { 
+  width: 100%;
+  padding: auto;
+  font-size: 20px;
+  margin-bottom: 2px;
+  
+}
+
+.catalogo {
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.menu-catalogo { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:10px;
+    
+}
+
+.capa { 
+padding: auto;
+border-radius: 10px;
+
+
+}
+
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
